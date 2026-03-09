@@ -1,6 +1,6 @@
 # LLM Token Debugger
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
@@ -177,6 +177,6 @@ Contributions are welcome. If you find a bug or want to add a model, open an iss
 
 ## License
 
-Copyright 2026 Sairam Maruri
+Copyright (c) 2026 Sairam Maruri
 
-Licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for the full license text.
+MIT License. See [LICENSE](./LICENSE) for the full license text.

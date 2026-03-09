@@ -681,7 +681,6 @@ export async function tokenize(text: string, name: TokenizerName): Promise<Token
 
 export function getStats(tokens: TokenInfo[], text: string, name: TokenizerName) {
   const cfg = TOKENIZER_CONFIGS[name];
-  const total = tokens.filter(t => !t.isWhitespace).length; // embedding models count non-ws
   const totalAll = tokens.length;
   const unique = new Set(tokens.map((t) => t.id)).size;
   const charsPerToken = totalAll > 0 ? (text.length / totalAll).toFixed(2) : "0";

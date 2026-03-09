@@ -93,10 +93,8 @@ function TokenDisplay({ tokens }: { tokens: TokenInfo[] }) {
     <div className="leading-loose break-all">
       {tokens.map((token, i) => {
         // advance color on each new non-whitespace, non-continuation token
-        if (!token.isWhitespace && !token.isSpecial && !token.isContinuation) {
-          if (i > 0 && !tokens[i - 1].isWhitespace && !tokens[i - 1].isSpecial) {
-            colorIdx = (colorIdx + 1) % TOKEN_COLORS.length;
-          }
+        if (i > 0 && !token.isWhitespace && !token.isSpecial && !token.isContinuation) {
+          colorIdx = (colorIdx + 1) % TOKEN_COLORS.length;
         }
         return <TokenChip key={i} token={token} colorIndex={colorIdx} />;
       })}
